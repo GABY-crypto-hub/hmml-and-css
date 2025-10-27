@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(135deg, #5f84bc, #ACB6E5);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  background: #d19696;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(67, 65, 65, 0.555);
+}
+
+h1 {
+  text-align: center;
+  color: #ababab;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #74ebd5;
+  outline: none;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input[type="submit"], input[type="reset"], .back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #74ebd5;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, .back-btn:hover {
+  background-color: #4fb8a5;
+}
