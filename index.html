@@ -7,17 +7,6 @@
   <link rel="stylesheet" href="C:\Users\gabri\OneDrive\Desktop\index.css\style.css">
 </head>
 <body>
-     <script>const params = new URLSearchParams(window.location.search);
-const resultsDiv = document.getElementById("results");
-
-if (resultsDiv) {
-  let html = "<ul>";
-  for (const [key, value] of params.entries()) {
-    html += `<li><strong>${key}</strong>: ${value}</li>`;
-  }
-  html += "</ul>";
-  resultsDiv.innerHTML = html;
-}</script>
   <div class="container">
     <h1> Contact Form</h1>
     <form id="userForm" action="results.html" method="get">
